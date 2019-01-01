@@ -1,0 +1,38 @@
+<div  id="calculator" class="calculator" ole="application">
+	<!-- Screen -->
+	<div class="top">
+		<div class="screen" aria-labelledby="displayScreen" id="screen"></div>
+	</div>
+
+	<div class="keys" aria-labelledby="inputKeys">
+		<!-- operators and other keys (click)="math("7")" (click)="math("8")"(click)="math("9")"(click)="math("+")"(click)="math("4")"(click)="math("5")"(click)="math("6")"-->
+
+    <!--(click)="math("-")"  (click)="math("1")"-->
+    <input type="button" id="id7" class='num' value='7' (click)="math($event)">
+    <input type="button" id="id8" class='num' value='8' (click)="math($event)">
+    <input type="button" id="id9" class='num' value='9' (click)="math($event)">
+    <input type="button" class="operator" id="plus" value='+' (click)="math($event)"><br />
+
+    <input type="button" id="id4" class='num' value='4' (click)="math($event)">
+    <input type="button" id="id5" class='num' value='5' (click)="math($event)">
+    <input type="button" id="id6" class='num' value='6' (click)="math($event)">
+    <input type="button" class="operator" id="minus" value='-' (click)="math($event)"><br />
+
+    <input type="button" id="id1" class='num' value='1' (click)="math($event)">
+    <input type="button" id="id2" class='num' value='2' (click)="math($event)">
+    <input type="button" id="id3" class='num' value='3' (click)="math($event)">
+    <input type="button" class="operator" id="into" value='*' (click)="math($event)"><br />
+
+    <!-- (click)="math("2")" (click)="math("3")"-->
+
+    <input type="button" id="idC" class='num' value='C' (click)="math($event)">
+    <input type="button" id="id0" class='num' value='0' (click)="math($event)">
+    <input type="button" id="dot" class='num' value='.' (click)="math($event)">
+    <input type="button" class="operator" id="divide" value='/' (click)="math($event)"><br />
+
+    <input type="button" class='eval' id="idev" value='=' (click)="math($event)">
+    <input type="button" class="operator" id="power" value='^' (click)="math($event)"><br />
+
+
+	</div>
+</div>
