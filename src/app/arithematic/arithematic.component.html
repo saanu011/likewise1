@@ -1,7 +1,7 @@
 <div  id="calculator" class="calculator" ole="application">
 	<!-- Screen -->
 	<div class="top">
-		<div class="screen" aria-labelledby="displayScreen" id="screen"></div>
+		<input autofocus class="screen" aria-labelledby="displayScreen" id="screen" onblur="this.focus()" (onkeypress)="test()"/>
 	</div>
 
 	<div class="keys" aria-labelledby="inputKeys">
